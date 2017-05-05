@@ -16,7 +16,7 @@ ENV GOPATH="/go" \
 # Install docker:
 #------------------------------------------------------------------------------
 
-RUN apk add -U --no-cache -t dev git go make \
+RUN apk add -U --no-cache -t dev git go make musl-dev \
     && mkdir -p ${GOPATH}/src/github.com/prometheus \
     && cd ${GOPATH}/src/github.com/prometheus \
     && git clone https://github.com/prometheus/alertmanager.git \
