@@ -10,7 +10,7 @@ MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 #------------------------------------------------------------------------------
 
 ENV GOPATH="/go" \
-    VERSION="0.7.1"
+    VERSION="0.8.0"
 
 #------------------------------------------------------------------------------
 # Install docker:
